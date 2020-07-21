@@ -1,0 +1,15 @@
+name: PublishHomepage
+
+on: [push]
+
+jobs:
+        deploy:
+                name: Deplay Homepage
+                runs-on: [self-hosted, linux]
+                steps:
+                - name: Checkout
+                  uses: actions/checkout@v2
+                  with:
+                          repository: 'hardillb/homepage'
+                          path: 'homepage'
+                - run: bash ./homepage/scripts/deploy.sh
