@@ -90,7 +90,13 @@
 	}
 
 	client.onMessageArrived = (message) => {
-		console.log(message);
+		if (message.destinationName == "weather/hardillb/temperature/indoor/current") {
+			console.log(message.destinationName)
+			console.log(message.payloadString)
+		} else if (message.destinationName == "weather/hardillb/humidity/indoor/current") {
+			console.log(message.destinationName)
+			console.log(message.payloadString)
+		}
 	}
 
 	client.connect(options);
