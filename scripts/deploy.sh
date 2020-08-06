@@ -3,3 +3,4 @@
 cd homepage
 sudo cp index.html /var/www/html/external/
 sudo cp -r css /var/www/html/external/
+sudo cp -r js /var/www/html/external/
