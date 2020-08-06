@@ -54,6 +54,9 @@
 		<li><a href="https://twitter.com/hardillb">Twitter</a></li>
 		<li><a href="https://www.hardill.me.uk/wordpress/about/curriculum-vitae/">C.V.</a></li>
 	</ul>
+	<div>
+		<p>Current temperature <span id="temp"></span>&deg;C and humidity <span id="humidity"></span>%</p>
+	</div>
 	If you are looking for Wm. Hardill Sons & Co Ltd please click <a href="http://www.hardill.co.uk">here</a>.
 </div>
 </body>
@@ -93,9 +96,11 @@
 		if (message.destinationName == "weather/hardillb/temperature/indoor/current") {
 			console.log(message.destinationName)
 			console.log(message.payloadString)
+			$('#temp').text(message.payloadString)
 		} else if (message.destinationName == "weather/hardillb/humidity/indoor/current") {
 			console.log(message.destinationName)
 			console.log(message.payloadString)
+			$('#humidity').text(message.payloadString)
 		}
 	}
 
