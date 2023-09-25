@@ -1,15 +1,18 @@
 name: PublishHomepage
 
-on: [push]
+on:
+    push:
+        branches: [ master ]
+
 
 jobs:
-        deploy:
-                name: Deploy Homepage
-                runs-on: [self-hosted, linux]
-                steps:
-                - name: Checkout
-                  uses: actions/checkout@v3
-                  with:
-                          repository: 'hardillb/homepage'
-                          path: 'homepage'
-                - run: bash ./homepage/scripts/deploy.sh
+    deploy:
+        name: Deploy Homepage
+        runs-on: [self-hosted, linux]
+        steps:
+        - name: Checkout
+          uses: actions/checkout@v3
+          with:
+            repository: 'hardillb/homepage'
+            path: 'homepage'
+        - run: bash ./homepage/scripts/deploy.sh
