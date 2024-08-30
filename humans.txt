@@ -1,0 +1,20 @@
+/* humanstxt.org */
+
+/* TEAM */
+
+Author: Ben Hardill
+Site: https://www.hardill.me.uk
+Fediverse: https://bluetoot.hardill.me.uk/@ben
+GitHub: https://github.com/hardillb
+Blog: https://www.hardill.me.uk/wordpress
+Finger: ben@hardill.me.uk
+Gopher: gopher://hardill.me.uk
+Location: Dursley, UK
+
+
+/* SITE */
+
+Last update: 2024/08/30
+Powered by: HTML, CSS, JavaScript, Wordpress
+Hosted on: Self Hosted (Raspberry Pi4)
+Language: English
