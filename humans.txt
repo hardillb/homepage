@@ -6,7 +6,7 @@ Author: Ben Hardill
 Site: https://www.hardill.me.uk
 Fediverse: https://bluetoot.hardill.me.uk/@ben
 GitHub: https://github.com/hardillb
-Blog: https://www.hardill.me.uk/wordpress
+Blog: https://blog.hardill.me.uk/
 Finger: ben@hardill.me.uk
 Gopher: gopher://hardill.me.uk
 Location: Dursley, UK
@@ -14,7 +14,7 @@ Location: Dursley, UK
 
 /* SITE */
 
-Last update: 2025/01/26
+Last update: 2025/06/10
 Powered by: HTML, CSS, JavaScript, Wordpress
 Hosted on: Self Hosted (Raspberry Pi 5)
 Language: English
