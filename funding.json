@@ -21,7 +21,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/hardillb/node-red-contrib-alexa-home-skill",
-        "wellKnown": "https://github.com/hardillb/node-red-contrib-alexa-home-skill/master/blob/.well-known/funding-manifest-urls"
+        "wellKnown": "https://github.com/hardillb/node-red-contrib-alexa-home-skill/blob/master/.well-known/funding-manifest-urls"
       },
       "licenses": ["Apache-2.0"],
       "tags": ["node-red", "alexa"]
@@ -36,7 +36,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/hardillb/node-red-contrib-googlehome/",
-        "wellKnown":"https://github.com/hardillb/node-red-contrib-googlehome/master/blob/.well-known/funding-manifest-urls"
+        "wellKnown":"https://github.com/hardillb/node-red-contrib-googlehome/blob/master/.well-known/funding-manifest-urls"
       },
       "licenses": ["Apache-2.0"],
       "tags": ["node-red", "google-home"]
