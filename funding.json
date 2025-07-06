@@ -1,0 +1,92 @@
+{
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Ben Hardill",
+    "email": "hardillb@gmail.com",
+    "description": "Node-RED core contriubutor and node developer in my spare time",
+    "webpageUrl" : {
+      "url": "https://www.hardill.me.uk/"
+    }
+  },
+  "projects": [
+    {
+      "guid": "node-red-alexa",
+      "name": "Node-RED Alexa Home Skill Bridge",
+      "description": "Allows creating virtual Alexa devices to be controlled by Node-RED",
+      "webpageUrl": {
+        "url": "https://alexa-node-red.bm.hardill.me.uk/",
+	      "wellKnown": "https://alexa-node-red.bm.hardill.me.uk/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/hardillb/node-red-contrib-alexa-home-skill",
+        "wellKnown": "https://github.com/hardillb/node-red-contrib-alexa-home-skill/main/blob/.well-known/funding-manifest-urls"
+      },
+      "licenses": ["Apache-2.0"],
+      "tags": ["node-red", "alexa"]
+    },
+    {
+      "guid": "node-red-google-home",
+      "name": "Node-RED Google Assistant Bridge",
+      "description": "Allows creating virtual Google Home devices to be controlled by Node-RED",
+      "webpageUrl": {
+        "url": "https://googlehome.hardill.me.uk/",
+	      "wellKnown": "https://googlehome.hardill.me.uk/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/hardillb/node-red-contrib-googlehome/",
+        "wellKnown":"https://github.com/hardillb/node-red-contrib-googlehome/main/blob/.well-known/funding-manifest-urls"
+      },
+      "licenses": ["Apache-2.0"],
+      "tags": ["node-red", "google-home"]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github-sponsorship",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/hardillb",
+        "description": "Both recuring monthly sponsorship or one off ammounts"
+      },
+      {
+        "guid": "paypal",
+        "type": "payment-provider",
+        "address": "https://paypal.me/hardillb",
+        "description": "A way to make a one off donation"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "gh1-aws",
+        "status": "active",
+        "name": "Small recuring AWS Hosting contribution",
+        "description": "Contribute towards Monthly hosting bill",
+        "amount": 1,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": ["github-sponsorship"]
+      },
+      {
+        "guid": "gh5-aws",
+        "status": "active",
+        "name": "Medium recuring AWS Hosting contribution",
+        "description": "Contribute towards Monthly hosting bill",
+        "amount": 5,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": ["github-sponsorship"]
+      },
+      {
+        "guid": "paypal",
+        "status": "active",
+        "name": "One off dontaintions to Developer morale fund, buy me a beer",
+        "amount": 0,
+        "currency": "GBP",
+        "frequency": "one-time",
+        "channels": ["github-sponsorship", "paypal"]
+      }
+    ]
+  }
+}
