@@ -1,0 +1,18 @@
+{
+  "version": "1.1.0",
+  "url": "https://hardill.me.uk",
+  "vouches": [
+    {
+      "url": "https://andypiper.co.uk",
+      "vouched_at": "2026-03-27"
+    },
+    {
+      "url": "https://knolleary.net",
+      "vouched_at": "2026-03-27"
+    },
+    {
+      "url": "http://dalelane.co.uk",
+      "vouched_at": "2026-03-27"
+    }
+  ]
+}
